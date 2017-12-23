@@ -21,10 +21,10 @@ logger.ok("Message text.", "More message.");
 logger.fail("Message text.", err);
 ```
 
-![example screenshots](https://github.com/appleskiller/terminal-log/raw/master/screenshots/1.png)
+![screenshot 1](https://github.com/appleskiller/terminal-log/raw/master/screenshots/1.png)
 
 cli --verbose
 ```shell
 node test --verbose
 ```
-![example screenshots](https://github.com/appleskiller/terminal-log/raw/master/screenshots/2.png)
+![screenshot 2](https://github.com/appleskiller/terminal-log/raw/master/screenshots/2.png)
