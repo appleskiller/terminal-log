@@ -62,7 +62,7 @@ Standard interface
 
 - `msg` String | Object | Error
 
-Advanced interface. Nothing output unless `--version` in `process.argv`
+Advanced interface. Nothing output unless `--verbose` in `process.argv`
 
 ### **logger.ok(msg[, submsg])**
 
