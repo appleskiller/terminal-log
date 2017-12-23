@@ -24,7 +24,11 @@ module.exports = {
     },
     warn: function (msg, submsg) {
         console.log(chalk.yellow('!'), chalk.yellow(msg));
-        submsg && console.log(chalk.gray(submsg));
+        if (typeof submsg === "string") {
+            console.log(chalk.gray(submsg));
+        } else if (typeof submsg === "object") {
+            logError(submsg);
+        }
     },
     error: function (msg, submsg) {
         errorLog(msg, submsg);
