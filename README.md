@@ -51,9 +51,9 @@ Standard interface
 
 Standard interface
 
-### **logger.error(msg[, submsg])**
+### **logger.error([msg] [, submsg])**
 
-- `msg` String
+- `msg` String | Object | Error
 - `submsg` String | Object | Error
 
 Standard interface
@@ -71,9 +71,9 @@ Advanced interface. Nothing output unless `--verbose` in `process.argv`
 
 Advanced interface
 
-### **logger.fail(msg[, submsg])**
+### **logger.fail([msg] [, submsg])**
 
-- `msg` String
+- `msg` String | Object | Error
 - `submsg` String | Object | Error
 
 Advanced interface. Will exit process after call.
